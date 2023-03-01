@@ -1,0 +1,30 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "react practice",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yong Kim",
+  "license": "ISC",
+  "dependencies": {
+    "@date-io/date-fns": "^2.16.0",
+    "@material-ui/core": "^4.12.4",
+    "@types/react": "^17.0.43",
+    "@types/react-dom": "^17.0.14",
+    "es6-promise": "^4.2.8",
+    "isomorphic-fetch": "^3.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@types/material-ui": "^0.21.12",
+    "css-loader": "^6.7.3",
+    "source-map-loader": "^4.0.1",
+    "source-map-support": "^0.5.21",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.4.2"
+  }
+}

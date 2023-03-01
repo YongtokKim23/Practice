@@ -1,0 +1,55 @@
+﻿.ModalDiv {
+    padding: 5% !important;
+    background-color: lightgoldenrodyellow;
+}
+
+/* Small Image Button */
+
+.imgButton {
+    min-width: 30px !important;
+}
+
+.btnImage {
+    height: 20px !important;
+}
+
+.btnImgSearch {
+    background-color: black !important;
+}
+
+.btnImgInsert {
+    background-color: green !important;
+    color: white !important;
+}
+
+/* Small Image Button */
+
+.MuiPaper-root {
+    padding: 20px;
+}
+
+.MuiTextField-root, .selectForm {
+    width: 100%;
+}
+
+.btnClear, .btnClose {
+    margin-left: 10px !important;
+}
+
+.btnClose {
+    color: darkgreen !important;
+}
+
+.btnBlack {
+    color: white !important;
+    background-color: black !important;
+}
+
+.popupCloseBtn {
+    margin-top: 20px !important;
+}
+
+/* Modal */
+.updateModal, .insertModal {
+    overflow: auto;
+}

@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>73302937-31fa-43c6-af8d-6318185b1dcd</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="src\practice.tsx" />
+    <None Remove="src\practice\MemberInsertPopup.tsx" />
+    <None Remove="src\practice\MemberUpdatePopup.tsx" />
+    <None Remove="src\practice\PracticeApp.tsx" />
+    <None Remove="src\practice\PracticeMain.tsx" />
+    <None Remove="src\privacy.tsx" />
+    <None Remove="src\privacy\Destination.tsx" />
+    <None Remove="src\privacy\GeneralInfo.tsx" />
+    <None Remove="src\privacy\LookupInsertPopup.tsx" />
+    <None Remove="src\privacy\LookupUpdatePopup.tsx" />
+    <None Remove="src\privacy\PrivacyApp.tsx" />
+    <None Remove="src\privacy\PrivacyMain.tsx" />
+    <None Remove="src\utilities\PracticeUtilities.tsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Negotiate" Version="6.0.10" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+    <PackageReference Include="System.DirectoryServices.AccountManagement" Version="6.0.0" />
+    <PackageReference Include="System.DirectoryServices.Protocols" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="src\practice.tsx" />
+    <TypeScriptCompile Include="src\practice\MemberInsertPopup.tsx" />
+    <TypeScriptCompile Include="src\practice\MemberUpdatePopup.tsx" />
+    <TypeScriptCompile Include="src\practice\PracticeApp.tsx" />
+    <TypeScriptCompile Include="src\practice\PracticeMain.tsx" />
+    <TypeScriptCompile Include="src\privacy.tsx" />
+    <TypeScriptCompile Include="src\privacy\Destination.tsx" />
+    <TypeScriptCompile Include="src\privacy\GeneralInfo.tsx" />
+    <TypeScriptCompile Include="src\privacy\LookupInsertPopup.tsx" />
+    <TypeScriptCompile Include="src\privacy\LookupUpdatePopup.tsx" />
+    <TypeScriptCompile Include="src\privacy\PrivacyApp.tsx" />
+    <TypeScriptCompile Include="src\privacy\PrivacyMain.tsx" />
+    <TypeScriptCompile Include="src\utilities\PracticeUtilities.tsx" />
+  </ItemGroup>
+
+</Project>

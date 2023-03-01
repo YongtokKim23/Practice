@@ -1,0 +1,165 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.container {
+    max-width: 80% !important;
+}
+
+/* Header */
+.topA {
+    color: black !important;
+}
+
+    .topA.active {
+        color: red !important;
+    }
+
+.subTopA {
+    color: white !important;
+}
+
+    .subTopA.active {
+        color: red !important;
+    }
+
+/* Header */
+
+/* Label */
+.error {
+    color: red !important;
+}
+
+#requiredFieldLabel {
+    color: red !important;
+}
+
+#requiredFieldLabel-helper-text {
+    color: red !important;
+}
+
+.MuiInputLabel-root {
+    font-size: 0.8em !important;
+}
+
+.MuiTableCell-body {
+    padding: 5px !important;
+}
+/* Label */
+
+
+/* CheckBox */
+.whiteCheckBox {
+    margin: 0px !important;
+    width: 100% !important;
+    color: white !important;
+}
+
+/* margin & padding */
+.margin10 {
+    margin: 10px !important;
+}
+
+.paddingMargin0 {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.marginBottom5 {
+    margin-bottom: 5px !important;
+}
+
+.marginBottom0 {
+    margin-bottom: 0px !important;
+}
+
+.marginRight10 {
+    margin-right: 10px !important;
+}
+
+.marginLeft20 {
+    margin-left: 20px !important;
+}
+
+.marginLeft10 {
+    margin-left: 10px !important;
+}
+
+.marginLeft5 {
+    margin-left: 5px !important;
+}
+
+.marginTop5 {
+    margin-top: 5px !important;
+}
+
+.marginTop10 {
+    margin-top: 10px !important;
+}
+
+.marginTop20 {
+    margin-top: 20px !important;
+}
+
+.paddingTop5 {
+    padding-top: 5px !important;
+}
+
+.paddingRight20 {
+    padding-right: 20px !important;
+}
+
+.paddingLeft10 {
+    padding-left: 10px !important;
+}
+
+/* align */
+
+.right {
+    float: right;
+    text-align: right;
+}
+
+.left {
+    float: left;
+    text-align: left;
+}
+
+.textRight {
+    text-align: right !important;
+    min-width: 150px;
+    vertical-align: top;
+}
+
+.textLeft {
+    text-align: left !important;
+}
+
+.textCenter {
+    text-align: center !important;
+}
+
+.alignRight {
+    float: right !important;
+    display: block !important;
+}
+
+.alignLeft {
+    float: left !important;
+    display: block !important;
+}
